@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: foo
+  profiles:
+    active: development
+  cloud:
+    config:
+      env: development # optional
+      label: master # optional
+      uri: http://localhost:8888 # optional
